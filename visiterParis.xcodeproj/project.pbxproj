@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5ADAC15D6A552E72FDAC3CD7 /* Pods_visiterParisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B45B18F512D4C2F638D60F8 /* Pods_visiterParisTests.framework */; };
+		76DEDB3E573D8A007CC74D2D /* Pods_visiterParisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495F3C2951A04864B2DC267C /* Pods_visiterParisUITests.framework */; };
+		A5E51FDAECC87815ED88B59A /* Pods_visiterParis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E96940FDA3886E71E4FBAF0 /* Pods_visiterParis.framework */; };
 		C17CAA131E86E11E00E98E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17CAA121E86E11E00E98E9E /* AppDelegate.swift */; };
 		C17CAA151E86E11E00E98E9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17CAA141E86E11E00E98E9E /* ViewController.swift */; };
 		C17CAA181E86E11E00E98E9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17CAA161E86E11E00E98E9E /* Main.storyboard */; };
@@ -34,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34C17FAC72A990DA38748019 /* Pods-visiterParisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-visiterParisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-visiterParisTests/Pods-visiterParisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3E96940FDA3886E71E4FBAF0 /* Pods_visiterParis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_visiterParis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		495F3C2951A04864B2DC267C /* Pods_visiterParisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_visiterParisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		932060246367901F1DC99E7E /* Pods-visiterParis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-visiterParis.release.xcconfig"; path = "Pods/Target Support Files/Pods-visiterParis/Pods-visiterParis.release.xcconfig"; sourceTree = "<group>"; };
+		9B45B18F512D4C2F638D60F8 /* Pods_visiterParisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_visiterParisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC28EAA085A66B37D0C10B26 /* Pods-visiterParis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-visiterParis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-visiterParis/Pods-visiterParis.debug.xcconfig"; sourceTree = "<group>"; };
 		C17CAA0F1E86E11E00E98E9E /* visiterParis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visiterParis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17CAA121E86E11E00E98E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C17CAA141E86E11E00E98E9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,9 @@
 		C17CAA2E1E86E11E00E98E9E /* visiterParisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = visiterParisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17CAA321E86E11E00E98E9E /* visiterParisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visiterParisUITests.swift; sourceTree = "<group>"; };
 		C17CAA341E86E11E00E98E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4947A1F202F6F718591591 /* Pods-visiterParisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-visiterParisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-visiterParisUITests/Pods-visiterParisUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3934240F65C5AC9F40109FF /* Pods-visiterParisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-visiterParisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-visiterParisTests/Pods-visiterParisTests.release.xcconfig"; sourceTree = "<group>"; };
+		F8438F26DECCCD2BF47EB255 /* Pods-visiterParisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-visiterParisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-visiterParisUITests/Pods-visiterParisUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5E51FDAECC87815ED88B59A /* Pods_visiterParis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ADAC15D6A552E72FDAC3CD7 /* Pods_visiterParisTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76DEDB3E573D8A007CC74D2D /* Pods_visiterParisUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51910B10A86A62D79481CF6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC28EAA085A66B37D0C10B26 /* Pods-visiterParis.debug.xcconfig */,
+				932060246367901F1DC99E7E /* Pods-visiterParis.release.xcconfig */,
+				34C17FAC72A990DA38748019 /* Pods-visiterParisTests.debug.xcconfig */,
+				F3934240F65C5AC9F40109FF /* Pods-visiterParisTests.release.xcconfig */,
+				DE4947A1F202F6F718591591 /* Pods-visiterParisUITests.debug.xcconfig */,
+				F8438F26DECCCD2BF47EB255 /* Pods-visiterParisUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6E71E745C1AB624138037B83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E96940FDA3886E71E4FBAF0 /* Pods_visiterParis.framework */,
+				9B45B18F512D4C2F638D60F8 /* Pods_visiterParisTests.framework */,
+				495F3C2951A04864B2DC267C /* Pods_visiterParisUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C17CAA061E86E11E00E98E9E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				C17CAA261E86E11E00E98E9E /* visiterParisTests */,
 				C17CAA311E86E11E00E98E9E /* visiterParisUITests */,
 				C17CAA101E86E11E00E98E9E /* Products */,
+				51910B10A86A62D79481CF6E /* Pods */,
+				6E71E745C1AB624138037B83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C17CAA371E86E11E00E98E9E /* Build configuration list for PBXNativeTarget "visiterParis" */;
 			buildPhases = (
+				2D0059282076E0DB2519F706 /* [CP] Check Pods Manifest.lock */,
 				C17CAA0B1E86E11E00E98E9E /* Sources */,
 				C17CAA0C1E86E11E00E98E9E /* Frameworks */,
 				C17CAA0D1E86E11E00E98E9E /* Resources */,
+				8C2D27533C7042A103BA725F /* [CP] Embed Pods Frameworks */,
+				C305DF0C609AA39167E81B4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C17CAA3A1E86E11E00E98E9E /* Build configuration list for PBXNativeTarget "visiterParisTests" */;
 			buildPhases = (
+				1CA817FA6532C6143068BE38 /* [CP] Check Pods Manifest.lock */,
 				C17CAA1F1E86E11E00E98E9E /* Sources */,
 				C17CAA201E86E11E00E98E9E /* Frameworks */,
 				C17CAA211E86E11E00E98E9E /* Resources */,
+				9A91916E89C96DEA2F6786BF /* [CP] Embed Pods Frameworks */,
+				198C4F127EC3154BFD47EDE7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C17CAA3D1E86E11E00E98E9E /* Build configuration list for PBXNativeTarget "visiterParisUITests" */;
 			buildPhases = (
+				5F405C20AA219931BA5028E4 /* [CP] Check Pods Manifest.lock */,
 				C17CAA2A1E86E11E00E98E9E /* Sources */,
 				C17CAA2B1E86E11E00E98E9E /* Frameworks */,
 				C17CAA2C1E86E11E00E98E9E /* Resources */,
+				09310617B215C91965478DDA /* [CP] Embed Pods Frameworks */,
+				3C1FF4D470024A82A44A2D23 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09310617B215C91965478DDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-visiterParisUITests/Pods-visiterParisUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		198C4F127EC3154BFD47EDE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-visiterParisTests/Pods-visiterParisTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CA817FA6532C6143068BE38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2D0059282076E0DB2519F706 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C1FF4D470024A82A44A2D23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-visiterParisUITests/Pods-visiterParisUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F405C20AA219931BA5028E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C2D27533C7042A103BA725F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-visiterParis/Pods-visiterParis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A91916E89C96DEA2F6786BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-visiterParisTests/Pods-visiterParisTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C305DF0C609AA39167E81B4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-visiterParis/Pods-visiterParis-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C17CAA0B1E86E11E00E98E9E /* Sources */ = {
@@ -411,6 +598,7 @@
 		};
 		C17CAA381E86E11E00E98E9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC28EAA085A66B37D0C10B26 /* Pods-visiterParis.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ENGLX8LG3W;
@@ -424,6 +612,7 @@
 		};
 		C17CAA391E86E11E00E98E9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932060246367901F1DC99E7E /* Pods-visiterParis.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ENGLX8LG3W;
@@ -437,6 +626,7 @@
 		};
 		C17CAA3B1E86E11E00E98E9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C17FAC72A990DA38748019 /* Pods-visiterParisTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +642,7 @@
 		};
 		C17CAA3C1E86E11E00E98E9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3934240F65C5AC9F40109FF /* Pods-visiterParisTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +658,7 @@
 		};
 		C17CAA3E1E86E11E00E98E9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE4947A1F202F6F718591591 /* Pods-visiterParisUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ENGLX8LG3W;
@@ -481,6 +673,7 @@
 		};
 		C17CAA3F1E86E11E00E98E9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8438F26DECCCD2BF47EB255 /* Pods-visiterParisUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = ENGLX8LG3W;
