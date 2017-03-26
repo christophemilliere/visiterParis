@@ -17,6 +17,9 @@
 		C17CAA1D1E86E11E00E98E9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17CAA1B1E86E11E00E98E9E /* LaunchScreen.storyboard */; };
 		C17CAA281E86E11E00E98E9E /* visiterParisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17CAA271E86E11E00E98E9E /* visiterParisTests.swift */; };
 		C17CAA331E86E11E00E98E9E /* visiterParisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17CAA321E86E11E00E98E9E /* visiterParisUITests.swift */; };
+		C1E029691E87210A0064598F /* ApiCities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E029681E87210A0064598F /* ApiCities.swift */; };
+		C1E0296B1E8834F00064598F /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E0296A1E8834F00064598F /* City.swift */; };
+		C1E0296D1E88495D0064598F /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E0296C1E88495D0064598F /* CityTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		C17CAA2E1E86E11E00E98E9E /* visiterParisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = visiterParisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17CAA321E86E11E00E98E9E /* visiterParisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visiterParisUITests.swift; sourceTree = "<group>"; };
 		C17CAA341E86E11E00E98E9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E029681E87210A0064598F /* ApiCities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCities.swift; sourceTree = "<group>"; };
+		C1E0296A1E8834F00064598F /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		C1E0296C1E88495D0064598F /* CityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
 		DE4947A1F202F6F718591591 /* Pods-visiterParisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-visiterParisUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-visiterParisUITests/Pods-visiterParisUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F3934240F65C5AC9F40109FF /* Pods-visiterParisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-visiterParisTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-visiterParisTests/Pods-visiterParisTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8438F26DECCCD2BF47EB255 /* Pods-visiterParisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-visiterParisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-visiterParisUITests/Pods-visiterParisUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,8 +143,10 @@
 		C17CAA111E86E11E00E98E9E /* visiterParis */ = {
 			isa = PBXGroup;
 			children = (
+				C1E029671E8720CE0064598F /* Api */,
+				C1E029661E8720C20064598F /* Models */,
+				C1E029641E8720A50064598F /* Controllers */,
 				C17CAA121E86E11E00E98E9E /* AppDelegate.swift */,
-				C17CAA141E86E11E00E98E9E /* ViewController.swift */,
 				C17CAA161E86E11E00E98E9E /* Main.storyboard */,
 				C17CAA191E86E11E00E98E9E /* Assets.xcassets */,
 				C17CAA1B1E86E11E00E98E9E /* LaunchScreen.storyboard */,
@@ -163,6 +171,31 @@
 				C17CAA341E86E11E00E98E9E /* Info.plist */,
 			);
 			path = visiterParisUITests;
+			sourceTree = "<group>";
+		};
+		C1E029641E8720A50064598F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C17CAA141E86E11E00E98E9E /* ViewController.swift */,
+				C1E0296A1E8834F00064598F /* City.swift */,
+				C1E0296C1E88495D0064598F /* CityTableViewCell.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C1E029661E8720C20064598F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C1E029671E8720CE0064598F /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				C1E029681E87210A0064598F /* ApiCities.swift */,
+			);
+			name = Api;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,6 +483,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C17CAA151E86E11E00E98E9E /* ViewController.swift in Sources */,
+				C1E029691E87210A0064598F /* ApiCities.swift in Sources */,
+				C1E0296D1E88495D0064598F /* CityTableViewCell.swift in Sources */,
+				C1E0296B1E8834F00064598F /* City.swift in Sources */,
 				C17CAA131E86E11E00E98E9E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -705,6 +741,7 @@
 				C17CAA391E86E11E00E98E9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C17CAA3A1E86E11E00E98E9E /* Build configuration list for PBXNativeTarget "visiterParisTests" */ = {
 			isa = XCConfigurationList;
@@ -713,6 +750,7 @@
 				C17CAA3C1E86E11E00E98E9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C17CAA3D1E86E11E00E98E9E /* Build configuration list for PBXNativeTarget "visiterParisUITests" */ = {
 			isa = XCConfigurationList;
@@ -721,6 +759,7 @@
 				C17CAA3F1E86E11E00E98E9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
