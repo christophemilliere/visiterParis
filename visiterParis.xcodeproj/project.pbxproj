@@ -10,6 +10,7 @@
 		5ADAC15D6A552E72FDAC3CD7 /* Pods_visiterParisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B45B18F512D4C2F638D60F8 /* Pods_visiterParisTests.framework */; };
 		76DEDB3E573D8A007CC74D2D /* Pods_visiterParisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495F3C2951A04864B2DC267C /* Pods_visiterParisUITests.framework */; };
 		A5E51FDAECC87815ED88B59A /* Pods_visiterParis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E96940FDA3886E71E4FBAF0 /* Pods_visiterParis.framework */; };
+		C1399A411E91607B002E03D5 /* TableviewMainExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1399A401E91607B002E03D5 /* TableviewMainExtension.swift */; };
 		C17CAA131E86E11E00E98E9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17CAA121E86E11E00E98E9E /* AppDelegate.swift */; };
 		C17CAA151E86E11E00E98E9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17CAA141E86E11E00E98E9E /* ViewController.swift */; };
 		C17CAA181E86E11E00E98E9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C17CAA161E86E11E00E98E9E /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		932060246367901F1DC99E7E /* Pods-visiterParis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-visiterParis.release.xcconfig"; path = "Pods/Target Support Files/Pods-visiterParis/Pods-visiterParis.release.xcconfig"; sourceTree = "<group>"; };
 		9B45B18F512D4C2F638D60F8 /* Pods_visiterParisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_visiterParisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC28EAA085A66B37D0C10B26 /* Pods-visiterParis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-visiterParis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-visiterParis/Pods-visiterParis.debug.xcconfig"; sourceTree = "<group>"; };
+		C1399A401E91607B002E03D5 /* TableviewMainExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableviewMainExtension.swift; sourceTree = "<group>"; };
 		C17CAA0F1E86E11E00E98E9E /* visiterParis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visiterParis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C17CAA121E86E11E00E98E9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C17CAA141E86E11E00E98E9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C1399A3F1E916045002E03D5 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C1399A401E91607B002E03D5 /* TableviewMainExtension.swift */,
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
 		C17CAA061E86E11E00E98E9E = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +153,7 @@
 		C17CAA111E86E11E00E98E9E /* visiterParis */ = {
 			isa = PBXGroup;
 			children = (
+				C1399A3F1E916045002E03D5 /* extensions */,
 				C1E029671E8720CE0064598F /* Api */,
 				C1E029661E8720C20064598F /* Models */,
 				C1E029641E8720A50064598F /* Controllers */,
@@ -482,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1399A411E91607B002E03D5 /* TableviewMainExtension.swift in Sources */,
 				C17CAA151E86E11E00E98E9E /* ViewController.swift in Sources */,
 				C1E029691E87210A0064598F /* ApiCities.swift in Sources */,
 				C1E0296D1E88495D0064598F /* CityTableViewCell.swift in Sources */,
