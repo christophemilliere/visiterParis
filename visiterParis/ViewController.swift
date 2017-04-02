@@ -22,22 +22,30 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.tableview.delegate = self
         self.tableview.dataSource = self
         
+        let api = ApiCities()
+        
         // Do any additional setup after loading the view, typically from a nib.
         //api.cities(url: "http://localhost:3000/api/v1/towns")
-        Alamofire.request("http://localhost:3000/api/v1/towns", method: .get, encoding: JSONEncoding.default)
-            .responseJSON {response in
-                //let json = JSON(response.result)
-                
-                let data = JSON(response.result.value as Any!)
-                
-                for index in 0 ..< data.count {
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        
+        func cityCompleted(err: String?, json: JSON?, status: Int)
+        {
+            if err != nil {
+                print("handle failure here")
+            } else {
+                for city in json!.arrayValue {
                     
-                    let c = City(name: data[index]["name"].stringValue, id: data[index]["id"].intValue)
+                    let c = City(name: city["name"].stringValue, id: city["id"].intValue)
                     self.cityList.append(c)
                 }
-                self.tableview.reloadData()
-                
+            }
+            
+            self.tableview.reloadData()
+            dismiss(animated: true, completion: nil)
         }
+        ApiCities().getCities(completed: cityCompleted)
     }
 
     override func didReceiveMemoryWarning() {
